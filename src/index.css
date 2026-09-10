@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: theme("colors.background");
+    color: theme("colors.on-background");
+  }
+
+  body {
+    font-family: theme("fontFamily.body");
+  }
+}
+
+@layer utilities {
+
+
+  .glass {
+    @apply backdrop-blur-glass border border-white/20;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
