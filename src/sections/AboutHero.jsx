@@ -1,4 +1,4 @@
-const Hello = () => {
+const AboutHero = () => {
   return (
     <div className="w-full h-fit mb-section-gap flex flex-col justify-center items-center">
       <div className="flex flex-col font-display text-center ">
@@ -17,4 +17,4 @@ const Hello = () => {
   );
 };
 
-export default Hello;
+export default AboutHero;
